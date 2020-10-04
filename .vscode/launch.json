@@ -1,0 +1,20 @@
+{
+    // Use o IntelliSense para aprender sobre possíveis atributos.
+    // Passe o mouse para ver as descrições dos atributos existentes.
+    // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+            "name": "Listen for Xdebug PHP",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome localhost JS Script",
+            "url": "http://localhost/kumon/kumon-gestor",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

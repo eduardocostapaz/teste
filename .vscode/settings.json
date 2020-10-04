@@ -1,0 +1,49 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.mouseWheelZoom": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 220,
+  "editor.rulers": [162],
+  "editor.wrappingIndent": "indent",
+  "breadcrumbs.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "php.suggest.basic": false,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#373a82",
+    "activityBar.activeBorder": "#000000",
+    "activityBar.background": "#373a82",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#282a5e",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#373a82",
+    "titleBar.activeBackground": "#282a5e",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#282a5e99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#282a5e",
+}
