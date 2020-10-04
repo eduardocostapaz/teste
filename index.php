@@ -6,6 +6,8 @@ require_once "class/play.php";
 
 /**
  */
+//$play = new Play(10, 4000);
+// $play = new Play(10, 40000);
 $play = new Play(6, 4);
 $play->gerarJogos();
 $play->gerarSorteio();
@@ -78,11 +80,11 @@ $play->gerarSorteio();
 
 <?php
 
-echo "==== DUMP ==== </br>";
-echo "______>>>> JOGOS REALIZADOS";
-var_dump($play->__get("jogos"));
+// echo "==== DUMP ==== </br>";
+// echo "______>>>> JOGOS REALIZADOS";
+// var_dump($play->__get("jogos"));
 
-echo "______>>>> RESULTADO SORTEIO";
-var_dump($play->__get("resultado"));
+// echo "______>>>> RESULTADO SORTEIO";
+// var_dump($play->__get("resultado"));
 
 ?>

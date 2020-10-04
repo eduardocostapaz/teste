@@ -183,7 +183,8 @@ class Play extends PlayFactory
         $premiado = 0;
 
         foreach ($jogos as $key => $value) {
-            if ($value == $resultado)
+            $check = array_intersect($resultado, $value);
+            if (count($check) == 6)
                 $premiado++;
         }
 
